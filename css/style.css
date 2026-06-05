@@ -380,6 +380,18 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+.rodape {
+  background-color: #082041;
+  padding: 2rem 8%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.rodape p {
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
 @media (max-width: 992px) {
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
