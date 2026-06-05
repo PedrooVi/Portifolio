@@ -1,14 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pedro Vinicius</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
-    <script src='./src/main.js'></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Pedro Vinicius</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:wght@100..900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./css/style.css" />
+    </head>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1>Pedro Vinicius</h1>
+      <nav>
+        <ul class="navegacao">
+          <li><a href="#sobre" class="navegacao-link">Sobre mim</a></li>
+          <li><a href="#formacao" class="navegacao-link">Formação</a></li>
+          <li><a href="#portfolio" class="navegacao-link">Projetos</a></li>
+          <li><a href="#contato" class="navegacao-link">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section id="sobre" class="sobre-container">
+        <div class="sobre-conteudo">
+          <h2>Sobre mim</h2>
+          <p>
+            Desenvolvedor Backend Java e profissional de tecnologia,
+            especializado no desenvolvimento de aplicações, manutenção e
+            montagem de computadores, suporte técnico e mentorias. Tenho paixão
+            por tecnologia, aprendizado contínuo e pela criação de soluções que
+            geram resultados reais. Atualmente, foco meus estudos e projetos em
+            Java, Spring, bancos de dados e desenvolvimento de sistemas, sempre
+            buscando evoluir minhas habilidades e entregar soluções de
+            qualidade.
+          </p>
+        </div>
+        <div class="sobre-imagem">
+          <img src="./img/Pedro Vinicius.jpeg" alt="Foto Pedro" />
+        </div>
+      </section>
+      <section id="formacao" class="formacao-container">
+        <h2 class="formacao-titulo">Formações</h2>
+        <div class="formacao-cards">
+          <div class="card">
+            <h3>Tecnico em desenvolviemnto de sistemas</h3>
+            <span class="instituicao">Proz Educação</span>
+            <p class="periodo">
+              05/2023 - 05/2025 <br />
+              <span>Concluído</span>
+            </p>
+          </div>
+          <div class="card">
+            <h3>Engenharia de Software EAD</h3>
+            <span class="instituicao">Uninter</span>
+            <p class="periodo">
+              07/2025 - Cursando <br />
+              <span> (Previsão de conclusão: 07/2029)</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio-container">
+        <div class="portfolio-cabecalho">
+          <h2>Meus projetos</h2>
+          <p>Meus projetos em destaque</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-card">
+            <div class="projeto-imagem">
+              <img src="./img/Tela de login.jfif" alt="Preview do projeto" />
+            </div>
+            <div class="projeto-inf">
+              <h3>Tela de Login</h3>
+              <p>
+                Aplicação desenvolvida para simular o processo de autenticação
+                de usuários em um sistema. O projeto apresenta uma interface
+                simples e intuitiva para entrada de credenciais, focando na
+                experiência do usuário e na construção de telas utilizadas no
+                dia a dia de aplicações web. Seu principal objetivo foi praticar
+                conceitos de desenvolvimento de interfaces, organização visual e
+                estruturação de páginas voltadas para autenticação de usuários.
+              </p>
+              <div class="projeto-links">
+                <a
+                  href="https://github.com/PedrooVi/TelaDeLogin"
+                  target="_blank"
+                  title="Ver código"
+                  >💻</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="projeto-imagem">
+              <img src="./img/Gymlog Logo.png" alt="Preview do projeto" />
+            </div>
+            <div class="projeto-inf">
+              <h3>Gymlog</h3>
+              <p>
+                GymLog é uma aplicação desenvolvida para auxiliar no
+                acompanhamento e gerenciamento de treinos de academia. O sistema
+                permite registrar treinos realizados, acompanhar exercícios,
+                organizar fichas de treino e manter um histórico das atividades,
+                facilitando o controle da evolução dos usuários. O projeto foi
+                criado com foco em oferecer uma experiência prática para o
+                gerenciamento de rotinas de treino, aplicando conceitos de
+                desenvolvimento backend, organização de dados e construção de
+                APIs.
+              </p>
+              <div class="projeto-links">
+                <a href="https://github.com/PedrooVi/GymLog" target="_blank" title="Ver código">💻</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="projeto-imagem">
+              <img src="img/Library manager.png" alt="Preview do projeto" />
+            </div>
+            <div class="projeto-inf">
+              <h3>Library manager</h3>
+              <p>
+                LibraryManager é um sistema de gerenciamento de biblioteca
+                desenvolvido para facilitar o controle e a organização de
+                livros. A aplicação permite cadastrar, consultar, editar e
+                gerenciar informações do acervo, simulando o funcionamento
+                básico de uma biblioteca. O projeto foi criado com o objetivo de
+                praticar o desenvolvimento de sistemas utilizando Java,
+                aplicando conceitos de organização de dados e lógica de
+                programação em um cenário real..
+              </p>
+              <div class="projeto-links">
+                <a
+                  href="https://github.com/PedrooVi/LibraryManager"
+                  target=""
+                  title="Ver código"
+                  >💻</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contato-container">
+        <div class="contato-cabecalho">
+            <h2>Contato</h2>
+            <p>Gostou do meu trabalho? Entre em contato para conversarmos!</p>
+        </div>
+        <form id="form-contato" class="contato-form">
+            <div class="campo-grupo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo">
+                <span class="mensagem-erro" id="erro-nome">O campo nome é obrigatório</span>
+            </div>
+            <div class="campo-grupo">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="seu-email@dominio.com">
+                <span class="mensagem-erro" id="erro-email">Por favor, insira um e-mail válido.</span>
+            </div>
+            <div class="campo-grupo">
+                <label for="mensagem">Menssagem</label>
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                <span class="mensagem-erro" id="erro-mensagem">Preencha o campo de mensagem</span>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar mensagem</button>
+            <div id="mensagem-sucesso" class="modal-sucesso">Mensagem enviada com sucesso!</div>
+        </form>
+
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>&copy; 2026 Pedro Vinicius. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./src/main.js"></script>
+  </body>
 </html>
